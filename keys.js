@@ -1,20 +1,3 @@
-
-
-//Twitter
-//https://www.npmjs.com/package/twitter
-
-//Spotify
-//https://www.npmjs.com/package/node-spotify-api
-
-//Request
-//https://www.npmjs.com/package/request
-
-//DotEnv
-//https://www.npmjs.com/package/dotenv
-
-
-console.log('this is loaded');
-
 exports.twitter = {
   consumer_key: process.env.TWITTER_CONSUMER_KEY,
   consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
